@@ -352,6 +352,18 @@ footer {
     footer {
         font-size: 2vw;
     }
+
+    .work h2,
+    .contact h2 {
+        padding-left: 20px;
+    }
+
+    .work h2::after,
+    .title::after {
+        left: 40px;
+    }
+
+
 }
 
 @media screen and (max-width: 470px) {
@@ -368,6 +380,10 @@ footer {
         width: 80vw;
         font-size: 4vw;
         min-width: 0px;
+    }
+
+    #card h2 {
+        padding-left: 0px;
     }
 
     #work-container h3 {
