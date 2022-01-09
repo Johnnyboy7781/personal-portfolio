@@ -15,6 +15,12 @@ body {
     background-color: var(--tertiary-color);
 }
 
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
 /* Header styles */
 header {
     padding: 20px 35px;
@@ -308,5 +314,12 @@ footer {
     }
     .info {
         padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    #card {
+        height: fit-content;
+        width: fit-content;
     }
 }
