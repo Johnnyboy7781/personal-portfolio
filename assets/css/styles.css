@@ -363,7 +363,15 @@ footer {
         left: 40px;
     }
 
+    #main-work,
+    #secondary-work {
+        width: 40%;
+    }
 
+    #work-container a {
+        margin: 5px 5px 5px 15px;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 470px) {
