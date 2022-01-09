@@ -68,7 +68,7 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-.hero img {
+#profile-pic img {
     width: 80%;
     border-radius: 50%;
     border: solid 10px var(--tertiary-color);
@@ -141,7 +141,8 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
-#work-container div {
+#work-container div,
+#work-container a {
     margin: 5px 15px;
     border-radius: 10px;
 }
@@ -159,8 +160,19 @@ header nav ul li a:hover {
 }
 
 #main-work {
-    background-color: var(--secondary-color);
     height: 400px;
+    background-image: url("../images/mycows.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#main-work h3 {
+    text-decoration: none;
+    color: black;
+}
+
+#main-work:hover {
+    opacity: 0.9;
 }
 
 #secondary-work {
@@ -168,9 +180,45 @@ header nav ul li a:hover {
     flex-direction: column;
 }
 
-#secondary-work div {  
+#secondary-work a {  
     background-color: var(--secondary-color);
     height: 50%;
+}
+
+#first {
+    background-image: url("../images/runbuddy.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#first:hover {
+    opacity: 0.9;
+}
+
+#first h3 {
+    position: absolute;
+    bottom: 0;
+    color: black;
+    text-decoration: underline;
+}
+
+#second {
+    background-image: url("../images/roboglad.PNG");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+#second:hover {
+    opacity: 0.9;
+}
+
+#second h3 {
+    position: absolute;
+    bottom: 0;
+    color: black;
+    text-decoration: underline;
 }
 
 /* Contact styles */
@@ -221,6 +269,10 @@ header nav ul li a:hover {
 
 .media svg {
     margin: 0 15px;
+}
+
+.media svg:hover {
+    opacity: 0.7;
 }
 
 /* Footer styles */
