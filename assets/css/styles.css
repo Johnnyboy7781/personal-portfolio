@@ -322,4 +322,34 @@ footer {
         height: fit-content;
         width: fit-content;
     }
+
+    header nav ul li a {
+        font-size: 4vw;
+    }
+
+    header nav ul li {
+        padding: 10px;
+    }
+
+    .hero div h1 {
+        padding-top: 10px;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .info div {
+        padding: 10px 0;
+    }
+
+    .info p {
+        font-size: 4.3vw;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
 }
