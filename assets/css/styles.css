@@ -288,3 +288,25 @@ footer {
     justify-content: center;
     padding-bottom: 30px;
 }
+
+/* Media queries */
+@media screen and (max-width: 945px) {
+    #about {
+        flex-wrap: wrap;
+    }
+
+    header nav ul li a {
+        font-size: 3vw;
+    }
+
+    .hero div h1 {
+        font-size: 7vw;
+    }
+
+    .info div {
+        padding: 0 50px;
+    }
+    .info {
+        padding-bottom: 20px;
+    }
+}
