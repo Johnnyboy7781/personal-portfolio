@@ -353,3 +353,24 @@ footer {
         font-size: 2vw;
     }
 }
+
+@media screen and (max-width: 470px) {
+    #profile-pic img {
+        width: 80vw;
+    }
+
+    #card {
+        width: 80vw;
+        height: fit-content;
+    }
+
+    #card p {
+        width: 80vw;
+        font-size: 4vw;
+        min-width: 0px;
+    }
+
+    #work-container h3 {
+        font-size: 3vw;
+    }
+}
