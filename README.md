@@ -13,4 +13,4 @@ Check it out here: https://johnnyboy7781.github.io/personal-portfolio/
 ## Contribution
 Made with ❤️ by Jonathan McDonnell
 
-### Last updated: 01/09/2022
+### Last updated: 02/10/2022
