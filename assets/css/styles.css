@@ -173,14 +173,14 @@ header nav ul li a:hover {
 
 #main-work {
     height: 400px;
-    background-image: url("../images/mycows.png");
+    background-image: url("../images/coinhiz.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #main-work h3 {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #main-work:hover {
@@ -198,7 +198,7 @@ header nav ul li a:hover {
 }
 
 #first {
-    background-image: url("../images/runbuddy.jpg");
+    background-image: url("../images/mycows.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -216,7 +216,7 @@ header nav ul li a:hover {
 }
 
 #second {
-    background-image: url("../images/roboglad.PNG");
+    background-image: url("../images/runbuddy.jpg");
     background-size: cover;
     background-position: top;
     position: relative;
